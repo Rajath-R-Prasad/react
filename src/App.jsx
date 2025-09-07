@@ -43,14 +43,14 @@ function App() {
   return (
     <>
     <div className='flex flex-col items-center justify-center h-screen w-screen bg-black' style={{ background: bgColor }}>
-    <div className='flex w-[80vw] h-screen flex-col items-center justify-center  rounded-lg '>
+    <div className='flex w-[80vw] h-screen flex-col items-center justify-center  rounded-lg text-center '>
     <button className='text-white m-2 rounded-full p-2 bg-blue-700 border-2 border-purple-800' onClick={switchOnLight}>Switch on the light</button>
     {showCakeButton &&( <h1 className='cake-button text-white text-sm md:text-md font-bold '>Hurray!!! Now lets unveil your Cake😍😍</h1>)}
     { showCakeButton && (
       <button className='cake-button text-white m-2 rounded-full p-2 bg-blue-700 border-2 border-purple-800' onClick={showtheCake}> See your cake</button>
     )}
     { showCake && (
-    <h1 className=' wish text-white text-xl md:text-2xl font-bold mt-4'>Wish you a happiee birthday Sohannnn 🥳🥳🥳</h1>
+    <h1 className=' wish text-white text-xl md:text-2xl font-bold mt-4'>Wish you a happiee birthday Poorvi 🥳🥳🥳</h1>
      )}
      { showCake && (
     <h1 className=' wish text-white text-xl md:text-2xl font-bold mt-4'>May god bless you </h1>
@@ -62,7 +62,7 @@ function App() {
     <h1 className=' wish text-white text-xl md:text-2xl font-bold mt-4'>I would like to wish you from corner of my RAM storage😍😍</h1>
      )}
      { showCake && (
-    <h1 className=' wish text-white text-xl md:text-2xl font-bold mt-4'>And main thing party yavagaa??😁</h1>
+    <h1 className=' wish text-white text-xl md:text-2xl font-bold mt-4'>And the main thing party yavagaa??😁</h1>
      )}
      {showCake && (
       <img src="image.png" alt="birthday cake" className='cake w-[50vw] md:w-[20vw] mt-5' />
