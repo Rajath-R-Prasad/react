@@ -55,17 +55,17 @@ function App() {
   <LightRays
     raysOrigin="top-center"
     raysColor="#ffffff"
-    raysSpeed={1.5}
+    raysSpeed={1.0}
     lightSpread={1.9}
-    rayLength={3}
+    rayLength={15}
     followMouse={true}
     mouseInfluence={0}
     noiseAmount={0.17}
     distortion={0}
     className="custom-rays"
     pulsating={false}
-    fadeDistance={1.9}
-    saturation={2}
+    fadeDistance={6}
+    saturation={4}
     />
     </div>
     )}
